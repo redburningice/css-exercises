@@ -4,3 +4,24 @@
     font-size: 20px;
     text-align: center;
 }
+
+p {
+    background-color: green;
+}
+
+.text {
+    background-color: blue;
+}
+
+#three {
+    background-color: brown;
+}
+
+.text#three {
+    background-color: violet;
+}
+
+body {
+    background-color: rgb(30,31,34);
+    color:aliceblue;
+}
