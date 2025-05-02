@@ -1,0 +1,80 @@
+div:not(.invisible-1, .invisible-2) {
+    border-width: 5px;
+    border-style: solid;
+}
+
+.green {
+    border-color: #238000;
+    background-color: #c7f0c7;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1em;
+}
+
+.blue {
+    border-color: blue;
+    background-color: #add8e6;
+    height: auto;
+    flex: 1;
+}
+
+#blue-1 {
+    display: flex;
+    padding: 23px 1em;
+    gap: 1em;
+}
+
+#blue-3 {
+    display: flex;
+    padding: 1em 1em;
+    gap: 5px;
+}
+
+.orange {
+    border-color: #f78072;
+    background-color: #fcdab9;
+    flex: 1;
+    display: flex;
+    padding: 5px;
+}
+
+.red {
+    border-color: #f40005;
+    background-color: #fac0cb; 
+    flex: 1;
+}
+
+.yellow {
+    border-color: #f78072;
+    background-color: #fcdab9;
+    flex: 1;
+}
+
+.purple {
+    border-color: #6a5acd;
+    background-color: #e2deff;
+    flex: 2;
+}
+
+.brown {
+    border-color: #a52b2a;
+    background-color: #fabbbb;
+    flex: 2;
+}
+
+.invisible-1 {
+    display: flex;
+    flex: 2;
+    gap: 10px;
+}
+
+.invisible-2 {
+    display: flex;
+    flex: 2;
+    gap: 10px;
+    flex-direction: column;
+}
