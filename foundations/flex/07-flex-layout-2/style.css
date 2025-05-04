@@ -13,7 +13,8 @@ body {
   background: darkmagenta;
   color: white;
   font-weight: 900;
-  justify-self: center;
+  /* display: flex;
+  align-items: center; */
   font-size: 32px;
 }
 
@@ -39,17 +40,26 @@ body {
   flex-wrap: wrap;
   /* margin: 40px; */
   gap: 20px;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   padding: 48px;
+  align-content: flex-start;
 }
 
 .card {
-  border: 1px solid #eee;
+  /* border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
   flex: 1 1 auto;
+  padding: 16px; */
+
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+
   padding: 16px;
+  flex-basis: 300px;
+  max-height: 500px;
 }
 
 .container {
